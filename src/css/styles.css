@@ -23,3 +23,32 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style-type: none;
+  padding: 0px;
+  margin: 24px auto;
+  width: 1128px;
+  justify-content: center;
+}
+.gallery-item {
+  box-sizing: border-box;
+  width: calc((100% / 3) - 24px);
+  height: 200px;
+  padding: 0;
+  margin: 0;
+}
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.gallery-link {
+  height: 200px;
+  width: 360px;
+  cursor: url('../svg/bxs_hand-down.svg'), pointer;
+}
