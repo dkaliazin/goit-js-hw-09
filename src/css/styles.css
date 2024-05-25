@@ -50,5 +50,5 @@
 .gallery-link {
   height: 200px;
   width: 360px;
-  cursor: url('../svg/bxs_hand-down.svg'), pointer;
+  cursor: url('../public/bxs_hand-down.svg'), pointer;
 }

@@ -93,3 +93,4 @@ gallery.addEventListener('click', function (event) {
     modalWindow.show();
   }
 });
+import SimpleLightbox from "simplelightbox";
