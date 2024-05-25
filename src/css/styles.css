@@ -52,3 +52,64 @@
   width: 360px;
   cursor: url('../public/bxs_hand-down.svg'), pointer;
 }
+.feedback-form {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.feedback-form-email {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+.feedback-form-textarea {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 80px;
+}
+.feedback-form-email-namelabel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.feedback-form-textarea-namelabel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.feedback-form-button {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
+  outline: none;
+}
+.feedback-form-textarea:hover,
+.feedback-form-email:hover {
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+.feedback-form-textarea:active,
+.feedback-form-email:active {
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+.feedback-form-button:hover {
+  background: #6c8cff;
+}

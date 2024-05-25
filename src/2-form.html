@@ -4,12 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page 3</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>form goit-js-hw-09</title>
   </head>
   <body>
     <section>
-      <a href="./index.html">Go to home</a>
-      <h1>Welcome to page 3</h1>
+      <form class="feedback-form" autocomplete="off">
+        <label class="feedback-form-email-namelabel">
+          <p>Email</p>
+          <input
+            type="email"
+            name="email"
+            class="feedback-form-email"
+            autofocus
+          />
+        </label>
+        <label class="feedback-form-textarea-namelabel">
+          <p>Message</p>
+          <textarea
+            name="message"
+            rows="8"
+            class="feedback-form-textarea"
+          ></textarea>
+        </label>
+        <button type="submit" class="feedback-form-button">Submit</button>
+      </form>
     </section>
+    <script src="../js/2-form.js" type="module"></script>
   </body>
 </html>

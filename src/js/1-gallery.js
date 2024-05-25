@@ -81,7 +81,7 @@ images.forEach(image => {
   fragment.appendChild(li);
 })
 gallery.appendChild(fragment);
-gallery.addEventListener('click', function (event) {
+/*gallery.addEventListener('click', function (event) {
    const target = event.target;
   if (target.classList.contains('gallery-image')) {
     event.preventDefault();
@@ -92,5 +92,9 @@ gallery.addEventListener('click', function (event) {
     `);
     modalWindow.show();
   }
-});
+});*/
+
 import SimpleLightbox from "simplelightbox";
+import "simplelightbox/dist/simple-lightbox.min.css";
+var lightbox = new SimpleLightbox('.gallery a', {  captionsData: 'alt',
+        captionDelay: 250, });
